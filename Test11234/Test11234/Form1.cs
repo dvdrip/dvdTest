@@ -15,6 +15,13 @@ namespace Test11234
         public Form1()
         {
             InitializeComponent();
+            
+            PrintItems();
+        }
+        
+        Public Void PrintItems()
+        {
+            Console.WriteLine("Items Printed");
         }
     }
 }
